@@ -132,7 +132,7 @@ public class TestMessage {
         );
     }
 
-    // Test 8: Correct message hash
+    // Test 8: Correction of  message hash.
     @Test
     public void testCreateMessageHash() {
 

@@ -49,7 +49,7 @@ public class Message {
         this.message = message;
     }
 
-    // Check that the message ID contains 10 digits
+    // The check that the message ID contains 10 digits.
     public boolean checkMessageID() {
 
         return messageID != null
