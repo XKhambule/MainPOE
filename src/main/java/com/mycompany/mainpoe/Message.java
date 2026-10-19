@@ -72,7 +72,7 @@ public class Message {
         }
     }
 
-    // Check that the message does not exceed 250 characters
+    // show shows that the message does not exceed 250 characters.
     public String checkMessageLength() {
 
         if (message != null && message.length() <= 250) {
