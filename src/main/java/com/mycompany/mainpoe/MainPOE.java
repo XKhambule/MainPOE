@@ -17,6 +17,7 @@ public class MainPOE {
             
             // Create Login object
             Login login = new Login();
+            Message message= new message();
             
             // Registration
             System.out.println("\n========== USER REGISTRATION ==========");
@@ -74,6 +75,12 @@ public class MainPOE {
                 System.out.println("Restart the application and try again.");
                 
             }
+        }
+    }
+
+    private static class message extends Message {
+
+        public message() {
         }
     }
 }
