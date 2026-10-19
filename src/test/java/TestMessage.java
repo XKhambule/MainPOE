@@ -113,7 +113,7 @@ public class TestMessage {
         );
     }
 
-    // Test 7: Message contains exactly 250 characters
+    // Test 7: Message contains 250 and less characters.
     @Test
     public void testMessageExactly250Characters() {
 
