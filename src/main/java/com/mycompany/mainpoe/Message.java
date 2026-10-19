@@ -116,7 +116,7 @@ public class Message {
         // Split the message into words
         String[] words = message.trim().split("\\s+");
 
-        // Convert the first and last words to uppercase
+        // This converts the first and last words to uppercase
         String firstWord = words[0].toUpperCase();
         String lastWord = words[words.length - 1].toUpperCase();
 
