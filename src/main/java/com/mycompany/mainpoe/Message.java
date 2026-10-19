@@ -264,7 +264,7 @@ public class Message {
         // Add the current message to the list
         messages.add(this);
 
-        // Save the list into the JSON file
+        //  This saves the list into the JSON file
         try (FileWriter writer = new FileWriter(file)) {
 
             stored = true;
