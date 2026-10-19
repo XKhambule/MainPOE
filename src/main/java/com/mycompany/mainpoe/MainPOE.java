@@ -80,7 +80,7 @@ public class MainPOE {
                         )
                 );
 
-                // PART 2: QUICKCHAT
+                // PART 2: This is the Quickchat of the program
                 // Only allow access after successful login
                 if (loggedIn) {
 
